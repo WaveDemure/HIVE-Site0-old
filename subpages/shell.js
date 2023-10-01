@@ -1,3 +1,3 @@
 function home() {
-    location.href = "index.html"
+    location.href = "projecthive.ddns.net"
 }
