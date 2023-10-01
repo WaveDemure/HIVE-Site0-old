@@ -13,10 +13,10 @@ function openGame() {
 function openHome() {
     var page = new ABC({
         "type": "blank",
-        "url": atob("aHR0cHM6Ly9wcm9qZWN0aGl2ZS5mci50by8=")
+        "url": "https://projecthive.fr.to/"
     })
     page.setType("blank")
-    page.setUrl(atob("aHR0cHM6Ly9wcm9qZWN0aGl2ZS5mci50by8="))
+    page.setUrl("https://projecthive.fr.to/")
     console.log(page.getCode())
     page.open()
     window.close
